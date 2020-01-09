@@ -9,8 +9,9 @@ public class CharacterCounter {
         
     }
     public static boolean  hashMethod() {
-        String str = "abcabc";
-        String[] splittedStr = str.split("");
+        String str = "AbcaBc";
+        String strLower = str.toLowerCase();
+        String[] splittedStr = strLower.split("");
 
         HashMap <String, Integer> mapOfLetters = new HashMap<String, Integer>();
 
